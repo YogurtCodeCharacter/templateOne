@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
+    "mock": "node ./src/mock/index.js",
     "dev": "webpack-dev-server --config webpack.dev.js --open"
   },
   "keywords": [],
-  "author": "",
+  "author": "zongliming",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -30,6 +31,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "redbox-react": "^1.6.0",
+    "require-dir": "^1.2.0",
     "style-loader": "^0.23.1",
     "url-loader": "^2.0.0",
     "webpack": "^4.34.0",
@@ -40,6 +42,7 @@
     "antd": "^3.19.8",
     "axios": "^0.19.0",
     "history": "^4.9.0",
+    "json-server": "^0.15.0",
     "react-redux": "^7.1.0",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",

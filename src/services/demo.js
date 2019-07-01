@@ -1,7 +1,6 @@
 import axios from 'axios';
-const domeUrl  = '/dome/url';
+const Fetch = require('./apiConfig');
 
 export async function search(params) {
-//   return axios.get('domeUrl');
-return {'a': 666, 'b': 9999}
+  return axios.get(Fetch.demoUrl);
 }

@@ -70,10 +70,7 @@ module.exports = {
         }),
         new CleanWebpackPlugin()
     ],
-    devServer: {
-        contentBase: './dist',
-        hot: true
-    },
+    devServer: require('./webpack.proxy'),
     devtool: 'sourcemap',
     mode: 'development'   //production, development
 }

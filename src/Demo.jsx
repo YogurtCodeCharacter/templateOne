@@ -5,6 +5,9 @@ import { Table, Divider, Tag } from 'antd';
 class Home extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      dataSource: []
+    }
   }
   componentDidMount() {
     this.props.getList();
