@@ -8,7 +8,7 @@
 
 <code>git clone xxxxxxx</code>
 
-<code>cd yogurt</code>
+<code>cd templateOne</code>
 
 <code>npm install</code>
 
